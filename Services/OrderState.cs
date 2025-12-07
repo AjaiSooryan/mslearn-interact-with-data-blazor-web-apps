@@ -38,4 +38,10 @@ public class OrderState
     {
         Order.Pizzas.Remove(pizza);
     }
+
+    public void ResetOrder()
+    {
+        Console.WriteLine("Resetting order...");
+        Order = new Order();
+    }
 }
